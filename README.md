@@ -98,5 +98,4 @@ thanks to cabled_mess, trullilulli and FarBiscuit17000.
 * jump.wav - https://freesound.org/people/cabled_mess/sounds/350904/
 * ladder.wav - https://freesound.org/people/trullilulli/sounds/422641/
 * opps.wav - https://freesound.org/people/cabled_mess/sounds/371451/
-* start.wav - https://freesound.org/people/FartBiscuit1700/sounds/368691/
 * step.wav - https://freesound.org/people/trullilulli/sounds/422644/
