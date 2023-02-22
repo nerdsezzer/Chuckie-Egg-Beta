@@ -35,8 +35,6 @@ class Level:
         self._lifts = pygame.sprite.Group()
         self.level_egg_count = 0
         self.eggs_collected = 0
-
-        self.start = pygame.mixer.Sound(os.path.join('.', 'start.wav'))
         return
 
     def __repr__(self):
@@ -94,13 +92,6 @@ class Level:
                     self.handles[(x, y)] = handle
                 if label:
                     self.tiles[(x, y)] = label
-
-            self.play_start_sound()
-        return
-
-    def play_start_sound(self):
-        self.start.play()
-        self.start.set_volume(0.5)
         return
 
     def all_landables(self):
@@ -134,7 +125,6 @@ class Level:
         """
         self._reset_moveables()
         self.status.reset_time()
-        self.play_start_sound()
         return
 
     def unload(self):
